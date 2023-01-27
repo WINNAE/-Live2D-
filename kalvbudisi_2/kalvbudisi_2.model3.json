@@ -1,0 +1,290 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "kalvbudisi_2.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "kalvbudisi_2.physics3.json",
+    "PhysicsV2": {
+      "File": "kalvbudisi_2.physics3.json"
+    },
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/待机.motion3.json",
+          "FileLoop": true,
+          "Priority": 2
+        }
+      ],
+      "Leave10_170_190": [
+        {
+          "File": "motions/主界面_1.motion3.json",
+          "Sound": "audio/主界面_1.wav",
+          "Text": "(坐立不安)…啊，不好，被欧若拉酱拜托的衣服还没做完呢…嗯…",
+          "Priority": 4
+        },
+        {
+          "File": "motions/主界面_2.motion3.json",
+          "Sound": "audio/主界面_2.wav",
+          "Text": "哎呀，外面有人呢…是主人！？对不起，刚刚这下闷到你了吗…？？",
+          "Priority": 4
+        },
+        {
+          "File": "motions/主界面_3.motion3.json",
+          "Sound": "audio/主界面_3.wav",
+          "Text": "好的主人，这次掏另一边的耳朵，请躺好…呀？！",
+          "Priority": 4
+        },
+        {
+          "File": "motions/任务提醒.motion3.json",
+          "Sound": "audio/任务提醒.wav",
+          "Text": "主人，来新任务了呢。已…已经知道了吗…？呜……",
+          "Priority": 4
+        },
+        {
+          "File": "motions/誓约.motion3.json",
+          "Sound": "audio/誓约.wav",
+          "Text": "主人…这是？果，果然普通的治愈是不够的吗？！叹气……因为，就算没有这个戒指…啊！这个果然是~可以更多更多地治愈主人的许可对吗？呵呵，亲爱的主人，我当然爱着你哦~\r",
+          "Priority": 4
+        },
+        {
+          "File": "motions/邮件.motion3.json",
+          "Sound": "audio/邮件.wav",
+          "Text": "邮件来了哦”——好的，来邮件了呢~之后请确认哦♪",
+          "Priority": 4
+        }
+      ],
+      "普通触摸": [
+        {
+          "File": "motions/普通触摸.motion3.json",
+          "Sound": "audio/普通触摸.wav",
+          "Text": "啊，主人请别乱动哦。",
+          "Priority": 4
+        }
+      ],
+      "特殊触摸": [
+        {
+          "File": "motions/特殊触摸.motion3.json",
+          "Sound": "audio/特殊触摸.wav",
+          "Text": "啊…♡",
+          "Priority": 4
+        }
+      ],
+      "摸头": [
+        {
+          "File": "motions/摸头.motion3.json",
+          "Priority": 4
+        }
+      ],
+      "主界面1": [
+        {
+          "File": "motions/主界面_1.motion3.json",
+          "Sound": "audio/主界面_1.wav",
+          "Text": "(坐立不安)…啊，不好，被欧若拉酱拜托的衣服还没做完呢…嗯…",
+          "Priority": 4
+        }
+      ],
+      "主界面2": [
+        {
+          "File": "motions/主界面_2.motion3.json",
+          "Sound": "audio/主界面_2.wav",
+          "Text": "哎呀，外面有人呢…是主人！？对不起，刚刚这下闷到你了吗…？？",
+          "Priority": 4
+        }
+      ],
+      "主界面3": [
+        {
+          "File": "motions/主界面_3.motion3.json",
+          "Sound": "audio/主界面_3.wav",
+          "SoundDelay": 3000,
+          "Text": "好的主人，这次掏另一边的耳朵，请躺好…呀？！",
+          "Priority": 4
+        }
+      ],
+      "提醒": [
+        {
+          "File": "motions/任务提醒.motion3.json",
+          "Sound": "audio/任务提醒.wav",
+          "Text": "主人，来新任务了呢。已…已经知道了吗…？呜……",
+          "Priority": 4
+        },
+        {
+          "File": "motions/邮件.motion3.json",
+          "Sound": "audio/邮件.wav",
+          "Text": "“邮件来了哦”——好的，来邮件了呢~之后请确认哦♪",
+          "Priority": 4
+        }
+      ],
+      "完成": [
+        {
+          "File": "motions/任务完成.motion3.json",
+          "Sound": "audio/任务完成.wav",
+          "Text": "任务报酬平安送来了。这下就放心啦~ ",
+          "Priority": 4
+        },
+        {
+          "File": "motions/委托完成.motion3.json",
+          "Sound": "audio/委托完成.wav",
+          "Text": "委托结束了。主人，真期待成果呢~",
+          "Priority": 4
+        }
+      ],
+      "誓约": [
+        {
+          "File": "motions/誓约.motion3.json",
+          "Sound": "audio/誓约.wav",
+          "Text": "主人…这是？果，果然普通的治愈是不够的吗？！叹气……因为，就算没有这个戒指…啊！这个果然是~可以更多更多地治愈主人的许可对吗？呵呵，亲爱的主人，我当然爱着你哦~\r",
+          "Priority": 4
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000
+    },
+    "LipSync": {
+      "Gain": 5.0,
+      "Items": [
+        {
+          "Id": "ParamMouthOpenY",
+          "Min": 0.0,
+          "Max": 1.0,
+          "Input": 0
+        }
+      ]
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Items": [
+        {
+          "Id": "ParamAngleX",
+          "Min": -30.0,
+          "Max": 30.0,
+          "BlendMode": 1,
+          "Input": 1
+        },
+        {
+          "Id": "ParamAngleY",
+          "Min": -30.0,
+          "Max": 30.0,
+          "BlendMode": 1,
+          "Input": 2
+        },
+        {
+          "Id": "ParamEyeBallX",
+          "Min": -1.0,
+          "Max": 1.0,
+          "BlendMode": 1,
+          "Input": 1
+        },
+        {
+          "Id": "ParamEyeBallY",
+          "Min": -1.0,
+          "Max": 1.0,
+          "BlendMode": 1,
+          "Input": 2
+        }
+      ],
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {},
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {},
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "头",
+      "Id": "ArtMesh49",
+      "Motion": "摸头"
+    },
+    {
+      "Name": "胸",
+      "Id": "ArtMesh75",
+      "Motion": "特殊触摸"
+    },
+    {
+      "Name": "胸",
+      "Id": "ArtMesh76",
+      "Motion": "特殊触摸"
+    },
+    {
+      "Name": "大腿",
+      "Id": "ArtMesh2",
+      "Motion": "主界面1"
+    },
+    {
+      "Name": "大腿",
+      "Id": "ArtMesh97",
+      "Motion": "主界面1"
+    },
+    {
+      "Name": "身体",
+      "Id": "ArtMesh101",
+      "Motion": "普通触摸"
+    },
+    {
+      "Name": "身体",
+      "Id": "ArtMesh156",
+      "Motion": "普通触摸"
+    },
+    {
+      "Name": "小腿",
+      "Id": "ArtMesh109",
+      "Motion": "主界面2"
+    },
+    {
+      "Name": "脚",
+      "Id": "ArtMesh219",
+      "Motion": "主界面3"
+    },
+    {
+      "Name": "脚",
+      "Id": "ArtMesh241",
+      "Motion": "主界面3"
+    },
+    {
+      "Name": "花瓶",
+      "Id": "ArtMesh132",
+      "Motion": "提醒"
+    },
+    {
+      "Name": "灯笼",
+      "Id": "ArtMesh129",
+      "Motion": "完成"
+    },
+    {
+      "Name": "锦鲤",
+      "Id": "ArtMesh68",
+      "Motion": "誓约"
+    }
+  ],
+  "Options": {
+    "ScaleFactor": 1
+  }
+}
