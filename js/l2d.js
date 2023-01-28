@@ -1,3 +1,7 @@
+// const PIXI = require('./l2d/pixi.min.js')
+// const LIVE2DCUBISMFRAMEWORK = require('./live2dcubismframework.js')
+
+// import PIXI from 
 class L2D {
     constructor (basePath) {
         this.basePath = basePath;
@@ -17,6 +21,7 @@ class L2D {
     }
     
     load (name, v) {
+        console.log("loading:", name)
         if (!this.models[name]) {
             let modelDir = name+'/';
             let modelPath = name+'.model3.json';
